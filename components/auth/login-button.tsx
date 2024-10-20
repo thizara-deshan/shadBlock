@@ -8,7 +8,7 @@ type Props = {
   asChild: boolean;
 };
 
-function LoginButton({ children, mode = "redirect", asChild }: Props) {
+function LoginButton({ children }: Props) {
   const router = useRouter();
   const onClick = () => {
     router.push("/auth/login");

@@ -16,10 +16,10 @@ import { ResetSchema } from "@/schemas/index";
 import { Input } from "../ui/input";
 import FormError from "./form-error";
 import FormSuccess from "./form-success";
-import { login } from "@/actions/login";
+
 import { useState, useTransition } from "react";
 import { Button } from "../ui/button";
-import Link from "next/link";
+
 import { reset } from "@/actions/reset";
 
 function ResetForm() {
